@@ -803,11 +803,13 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     font-weight: 500;
     /* padding-right: 30px; */
 }
+
 .drop > p {
     /* padding-right: 40px; */
     font-size: 18px;
     font-weight: lighter;
 }
+
 .helpCenter > p {
     font-size: 20px;
     font-weight: 500;
@@ -818,6 +820,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     justify-content: center;
     align-items: center;
 }
+
 .helpCenter > p > span {
     color: rgb(15, 98, 250);
     align-items: center;
@@ -887,6 +890,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     width: 180px;
     height: 50px;
 }
+
 .centernav {
    
     display: flex;
@@ -898,6 +902,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     padding-right: -30px;
 
 }
+
 .centernav > input {
     background-color: black;
     width: 126%;
@@ -911,12 +916,14 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     color: rgb(235, 229, 229);
     list-style: none;
 }
+
 .centernav img:nth-child(2) {
     padding: 20px 21px;
     background-color: #222222;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
 }
+
 .centernav img:nth-child(3) {
     margin: 10px;
     background-color: #222222;
@@ -925,6 +932,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     width: 45px;
     height: 42px;
 }
+
 .rightnav {
     
    
@@ -1780,8 +1788,115 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 
 @media screen and (min-width:642px) and (max-width:769px) {
-  
+  .Shell {
+    width: 802px;
+    height: 100%;
 }
+
+.leftnav img:nth-child(1) {
+    width: 95px;
+    height: 30px;
+}
+
+.centernav > input {
+    background-color: black;
+    width: 60%;
+    height: 32px;
+    padding: 4px 8px;
+    border: none;
+    font-size: 17px;
+    border: 1px solid #2c2b2b;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    color: rgb(235, 229, 229);
+    list-style: none;
+}
+
+.rightnav img:nth-child(1) {
+    width: 35px;
+    height: 35px;
+}
+
+.rightnav img:nth-child(2){
+    width: 35px;
+    height: 35px;
+}
+
+.rightnav img:nth-child(3) {
+    width: 35px;
+    border-radius: 50%;
+    height: 35px;
+}
+
+.ytPremium {
+    font-family: Roboto, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 550px;
+    gap: 30px;
+}
+
+.ytpremiulogo > img {
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.para {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    opacity: 0.7;
+    font-family: Roboto, Arial,sans-serif;
+}
+
+.ytpremiumdetails {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* opacity: 0.8; */
+    width: 96%;
+    height: 40%;
+}
+
+.ytpremiumdetails > button {
+    padding: 10px 15px;
+    border-radius: 22px;
+    width: 26%;
+    border: none;
+    font-weight: 500;
+    background-color: #56aefc;
+    font-size: 17px;
+}
+
+.ytpremiumdetails > p {
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.mid > p{
+  
+    padding: 5px 0px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.ytpremiumdetails p:nth-child(4) {
+    font-size: 25px;
+    color: #1140c0;
+}
+
+
+}
+
 
 @media screen and (min-width:770px) and (max-width:1024px) {
   
