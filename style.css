@@ -936,7 +936,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 .leftnav {
     display: flex;
-    gap: 10px;
+    gap: 3px;
     width: 180px;
     height: 35px;
     display: flex;
@@ -952,8 +952,8 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     justify-content: center;
 }
 
-.leftnav img:nth-child(2)  {
-    width: 105px;
+.leftnav img:nth-child(2) {
+    width: 171px;
     height: 35px;
     padding: 5px;
 }
@@ -962,7 +962,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 66%;
     height: 35px;
     padding: 5px;
 }
@@ -970,7 +970,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 .centernav > input {
     background-color: black;
     width: 65%;
-    height: 25px;
+    height: 15px;
     padding: 4px 4px;
     border: none;
     font-size: 13px;
@@ -1011,14 +1011,14 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     width: 100px;
 }
 .rightnav img:nth-child(1){
-    width: 46px;
+    width: 100px;
     height: 35px;
     align-items: center;
 }
 
 .rightnav img:nth-child(2){
  
-    width: 40px;
+    width: 100px;
     height: 35px;
     align-items: center;
 }
@@ -1029,16 +1029,17 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 
 .ytPremium {
-    padding-top: 41px;
+    /* padding: 3px; */
+    padding-top: 0px;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 65%;
+    height: 73%;
     gap: 20px;
+    padding-bottom: 1px;
 }
-
 
 .ytpremiulogo {
     padding-top: 2px;
@@ -1051,7 +1052,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     align-items: center;
     text-align: center;
     /* padding: 2px; */
-    font-size: 19px;
+    font-size: 20px;
     font-family: system-ui;
 }
 
@@ -1078,17 +1079,25 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     font-size: 15px;
 } 
 
-.ytpremiumdetails > p{ 
-     line-height: 29px;
+.ytpremiumdetails > p {
+    line-height: 29px;
+    font-size: 17px;
+    font-family: sans-serif;
 }
 
 .mid{
     line-height: 27px;
 }
 
+.mid > p{
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 3px;
+}
+
 .musicdetails {
     width: 100%;
-    height: 125%;
+    height: 135%;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -1101,13 +1110,60 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
   width: 100%;
 }
 
+.box1 > h2 {
+    font-family: inherit;
+    font-size: 25px;
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.box1 > h4 {
+    font-size: 17px;
+    color: silver;
+    font-weight: lighter;
+    padding-bottom: 1px;
+    line-height: 18px;
+}
+
+
 .box2{
   width: 100%;
+}
+
+.box2 > h2 {
+    font-size: 28px;
+    padding-top: 3px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.box2 > h4 {
+    font-size: 16px;
+    color: silver;
+    font-weight: lighter;
+    line-height: 22px;
 }
 
 .box3{
   width: 100%;
 }
+
+.box3 > h2 {
+    font-size: 28px;
+    padding: 3px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.box3 > h4 {
+    font-size: 17px;
+    color: silver;
+    padding: 2px;
+    font-weight: lighter;
+    line-height: 21px;
+    padding-top: 7px;
+}
+
 
 .bg1 {
     background-image: url(assets/bg1.jpeg);
@@ -1121,17 +1177,18 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     justify-content: space-between;
     padding-left: 6px;
     align-items: center;
-    padding-top: 115px;
-    font-size: 40px;
-    font-family: sans-serif;
+    padding-top: 107px;
+    font-size: 37px;
     padding-bottom: 2px;
+    font-family: inherit;
+    font-weight: 500;
 }
 
 .bg1 > p {
-    font-size: 22px;
+    font-size: 19px;
     padding-left: 7px;
     padding-right: 0px;
-    line-height: 25px;
+    line-height: 30px;
     font-family: inherit;
     padding-top: 0px;
     display: flex;
@@ -1190,7 +1247,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     align-items: center;
     padding-right: 0px;
     padding-left: 6px;
-    padding-top: 115px;
+    padding-top: 105px;
     font-family: auto;
     padding-bottom: 10px;
 }
@@ -1204,7 +1261,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     padding-left: 10px;
     padding-right: 0px;
     padding-bottom: 0px;
-    line-height: 25px;
+    line-height: 30px;
     font-family: system-ui;
     font-weight: lighter;
 }
@@ -1216,12 +1273,11 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     background-position: center;
 }
 
-
 .bg4 > h3 {
     display: flex;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: lighter;
-    padding-top: 88px;
+    padding-top: 74px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 0px;
@@ -1242,11 +1298,12 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: sans-serif;
 }
 
 .faqs {
     background-color: black;
-    height: 65%;
+    height: 70%;
     color: rgba(255, 255, 255, 0.904);
     display: flex;
     justify-content: center;
@@ -1256,20 +1313,20 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 
 .faqDetail {
-    padding: 6px;
+    padding: 9px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0px;
     justify-content: center;
     align-items: start;
-    height: 84%;
+    height: 100%;
 }
 
 .faqDetail > p {
     height: 14%;
     padding-top: 10px;
-    font-size: 23px;
+    font-size: 30px;
     font-weight: lighter;
     width: 100%;
     padding-left: 4px;
@@ -1280,13 +1337,17 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     height: 62%;
     background-color: black;
     padding: 5px 6px;
-    /* font-size: 3px; */
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
 }
 
 .drop {
     display: flex;
     justify-content: space-between;
-    padding: 12px 0px;
+    padding: 10px 0px;
     font-size: 16px;
     font-weight: lighter;
     /* padding-right: 30px; */
@@ -1294,9 +1355,15 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 
 .drop > p {
     padding-right: 40px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: lighter;
     padding-bottom: 3px;
+}
+
+.helpCenter {
+    width: 100%;
+    height: 19%;
+    padding-bottom: 8px;
 }
 
 .helpCenter >p {
