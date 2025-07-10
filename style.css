@@ -593,24 +593,25 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 90%;
-    gap: 11px;
-    padding-top: 50px;
+    height: 82%;
+    gap: 0px;
+    padding-top: 9px;
 }
 
 .ytpremiulogo > img {
     width: 100%;
-    height: 39px;
+    height: 45px;
     justify-content: center;
     align-items: center;
     display: flex;
+    padding-top: 8px;
 }
 
 .ytpremiulogo {
     
     padding: 3px;
     padding-top: 10px;
-    height: 17%;
+    height: 14%;
   
 }
 
@@ -619,9 +620,9 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     text-align: center;
     font-weight: lighter;
     font-size: 15px;
-    opacity: 0.8;
+    opacity: 0.9;
     width: 100%;
-    height: 80px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -630,11 +631,11 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 .para>h2{
    
     font-size: 17px;
-    padding: 13px  12px;
+    /* padding: 13px  12px; */
     font-family: "Sawarabi Gothic" , sans-serif;
     font-weight: lighter;
     font-style: normal;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 
 }
 
@@ -642,12 +643,12 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 15px;
     justify-content: center;
     align-items: center;
     opacity: 0.8;
     /* background-color: blue; */
-    height: 78%;
+    height: 60%;
     /* padding-top: 50px; */
 }
 
@@ -662,11 +663,12 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     font-family: sans-serif;
 }
 
-.ytpremiumdetails>p{
+.ytpremiumdetails>p {
     font-family: sans-serif;
-    line-height: 25px;
-    font-size: 14px;
-    font-weight: lighter;
+    line-height: 24px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Sawarabi Gothic" , sans-serif;
 }
 
 .mid >p{
@@ -676,13 +678,13 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 
 .ytpremiumdetails p:nth-child(4) {
-    font-size: 17px;
+    font-size: 18x;
     color: #1140c0;
 }
 
 .musicdetails {
     width: 100%;
-    height: 185%;
+    height: 168%;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -729,16 +731,17 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 
 .bg1 > h2 {
-    font-size: 35px;
-    font-family: ui-monospace;
+    font-size: 40px;
+    font-family: revert;
     color: white;
     font-weight: lighter;
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-items: center;
-    padding-top: 81px;
+    padding-top: 70px;
     padding-left: 8px;
+    padding-bottom: 2px;
 }
 
 .bg1 > p {
@@ -763,7 +766,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 
 .bg2 > h2 {
     font-size: 30px;
-    font-family: ui-monospace;
+    font-family: sans-serif;
     color: white;
     font-weight: lighter;
     display: flex;
@@ -783,7 +786,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     align-items: center;
     /* text-align: center; */
     padding-left: 8px;
-    padding-top: 10px;
+    padding-top: 5px;
     line-height: 30px;
     padding-right: 57px;
     padding-bottom: 4px;
@@ -797,7 +800,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 
 .bg3 > h2 {
-    font-size: 28px;
+    font-size: 32px;
     font-family: sans-serif;
     color: white;
     font-weight: lighter;
@@ -805,7 +808,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     justify-content: space-between;
     align-items: center;
     align-items: center;
-    padding-top: 87px;
+    padding-top: 82px;
     padding-left: 8px;
     padding-bottom: 1px;
     padding-right: 0px;
@@ -832,7 +835,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 
 .bg4 > h3 {
-    font-size: 24px;
+    font-size: 28px;
     font-family: sans-serif;
     color: white;
     font-weight: lighter;
@@ -847,16 +850,16 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 
 .bg4 > p {
-    font-size: 13px;
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* text-align: center; */
     padding-left: 8px;
-    padding-top: 2px;
-    line-height: 39px;
+    padding-top: 6px;
+    line-height: 29px;
     padding-right: 0px;
-    padding-bottom: 4px;
+    padding-bottom: 0px;
 }
 
 .faqs {
@@ -876,7 +879,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     display: flex;
     flex-direction: column;
     gap: 20px;
-    height: 100%;
+    height: 90%;
 }
 
 .drop {
@@ -922,127 +925,118 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 
 @media screen and (min-width:320px) and (max-width:480px) {
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px  5px;
+    padding: 5px 5px;
     background-color: black;
     position: fixed;
     margin-top: 0;
     width: 100%;
-    height: 40px;
+    height: 45px;
 }
+
 .leftnav {
     display: flex;
-    gap: 3px;
-    width: 180px;
-    height: 35px;
-    display: flex;
+    gap: 5px;
     justify-content: space-between;
     align-items: center;
+    width: 120px;
+    height: 35px;
 }
 
 .leftnav img:nth-child(1) {
-    display: flex;
-    align-items: center;
-    width: 45px;
-    height: 27px;
-    justify-content: center;
+    width: 90px;
+    height: 35px;
 }
 
 .leftnav img:nth-child(2) {
-    width: 171px;
-    height: 35px;
-    padding: 5px;
+    width: 248%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .centernav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 66%;
+    width: 50%;
     height: 35px;
-    padding: 5px;
+    text-align: center;
 }
 
 .centernav > input {
     background-color: black;
-    width: 65%;
-    height: 15px;
+    width: 68%;
+    height: 25px;
     padding: 4px 4px;
     border: none;
-    font-size: 13px;
+    font-size: 15px;
     border: 1px solid #2c2b2b;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     color: rgb(235, 229, 229);
     list-style: none;
-    font-family: sans-serif;
 }
 
 .centernav img:nth-child(2) {
-    padding: 2px 4px;
+    padding: 1px 2px;
     background-color: #222222;
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
-    width: 30px;
-    height: 25px;
+    /* border-bottom-right-radius: 30px; */
+    /* border-top-right-radius: 30px; */
+    /* border-bottom-left-radius: 30px; */
+    /* border-top-left-radius: 30px; */
+    display: flex;
 }
 
-.centernav img:nth-child(3) {
-    margin-left: 10px;
-    background-color: #222222;
-    border-radius: 30px;
-    color: rgba(235, 233, 233, 0.849);
-    margin-right: 10px;
-    padding: 2px;
-    height: 25px;
-    width: 26px;
-}
+.centernav img:nth-child(3){
+    display: none;
+} 
 
 .rightnav {
-    height: 35px;
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    gap: 5px;
+    justify-content: space-between;
     align-items: center;
-    width: 100px;
-}
-.rightnav img:nth-child(1){
-    width: 100px;
+    width: 110px;
     height: 35px;
-    align-items: center;
+    padding: 2px 4px;
+}
+
+.rightnav img:nth-child(1){
+    width: 30px;
+    height: 30px;
 }
 
 .rightnav img:nth-child(2){
- 
-    width: 100px;
-    height: 35px;
-    align-items: center;
+    width: 30px;
+    height: 30px;
 }
 
 .rightnav img:nth-child(3) {
-    width: 47px;
-    border-radius: 50%;
+    width: 32px;
+    height: 28px;
+    border-radius: 35px;
 }
 
 .ytPremium {
     /* padding: 3px; */
-    padding-top: 0px;
+    padding-top: 32px;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 73%;
-    gap: 20px;
-    padding-bottom: 1px;
+    height: 86%;
+    gap: 5px;
+    padding-bottom: 7px;
 }
 
 .ytpremiulogo {
-    padding-top: 2px;
+    padding-top: 10px;
     /* display: none; */
 }
 
@@ -1090,14 +1084,14 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 
 .mid > p{
-    font-size: 18px;
+    font-size: 17px;
     font-family: sans-serif;
     padding: 3px;
 }
 
 .musicdetails {
     width: 100%;
-    height: 135%;
+    height: 163%;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -1177,7 +1171,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     justify-content: space-between;
     padding-left: 6px;
     align-items: center;
-    padding-top: 107px;
+    padding-top: 70px;
     font-size: 37px;
     padding-bottom: 2px;
     font-family: inherit;
@@ -1209,7 +1203,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 115px;
+    padding-top: 70px;
     padding-left: 15px;
     padding-right: 0px;
     padding-bottom: 7px;
@@ -1247,7 +1241,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     align-items: center;
     padding-right: 0px;
     padding-left: 6px;
-    padding-top: 105px;
+    padding-top: 75px;
     font-family: auto;
     padding-bottom: 10px;
 }
@@ -1275,9 +1269,9 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 
 .bg4 > h3 {
     display: flex;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: lighter;
-    padding-top: 74px;
+    padding-top: 40px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 0px;
@@ -1288,11 +1282,11 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 
 .bg4 > p {
     padding-bottom: 0px;
-    font-size: 21px;
+    font-size: 17px;
     padding-left: 10px;
     padding-top: 3px;
     padding-right: 0px;
-    line-height: 31px;
+    line-height: 28px;
     font-family: system-ui;
     opacity: 1;
     display: flex;
@@ -1303,7 +1297,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 
 .faqs {
     background-color: black;
-    height: 70%;
+    height: 87%;
     color: rgba(255, 255, 255, 0.904);
     display: flex;
     justify-content: center;
@@ -1320,7 +1314,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     gap: 0px;
     justify-content: center;
     align-items: start;
-    height: 100%;
+    height: 120%;
 }
 
 .faqDetail > p {
