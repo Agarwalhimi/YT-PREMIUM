@@ -1030,7 +1030,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 86%;
+    height: 65%;
     gap: 5px;
     padding-bottom: 7px;
 }
@@ -1091,7 +1091,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 
 .musicdetails {
     width: 100%;
-    height: 163%;
+    height: 125%;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -1171,7 +1171,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     justify-content: space-between;
     padding-left: 6px;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 110px;
     font-size: 37px;
     padding-bottom: 2px;
     font-family: inherit;
@@ -1203,7 +1203,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 110px;
     padding-left: 15px;
     padding-right: 0px;
     padding-bottom: 7px;
@@ -1241,7 +1241,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     align-items: center;
     padding-right: 0px;
     padding-left: 6px;
-    padding-top: 75px;
+    padding-top: 110px;
     font-family: auto;
     padding-bottom: 10px;
 }
@@ -1269,9 +1269,9 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 
 .bg4 > h3 {
     display: flex;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: lighter;
-    padding-top: 40px;
+    padding-top: 110px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 0px;
@@ -1297,7 +1297,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 
 .faqs {
     background-color: black;
-    height: 87%;
+    height: 62%;
     color: rgba(255, 255, 255, 0.904);
     display: flex;
     justify-content: center;
@@ -1314,7 +1314,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     gap: 0px;
     justify-content: center;
     align-items: start;
-    height: 120%;
+    height: 150%;
 }
 
 .faqDetail > p {
