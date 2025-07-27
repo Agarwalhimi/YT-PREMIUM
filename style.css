@@ -2900,7 +2900,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 95%;
+    height: 72%;
     gap: 5px;
     padding-bottom: 7px;
 }
